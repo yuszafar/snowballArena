@@ -1,3 +1,156 @@
-[gd_scene format=3 uid="uid://ni1ktanvnt2n"]
+[gd_scene load_steps=39 format=3 uid="uid://ni1ktanvnt2n"]
+
+[ext_resource type="Texture2D" uid="uid://dbp6i57h2ouu6" path="res://assets/tilemap/1.png" id="1_v32y7"]
+[ext_resource type="PackedScene" uid="uid://gh3r87es4ka5" path="res://scenes/santa.tscn" id="2_hpp8j"]
+[ext_resource type="Texture2D" uid="uid://d1urrm1ynalun" path="res://assets/tilemap/9.png" id="2_xheb8"]
+[ext_resource type="Texture2D" uid="uid://cevu3l2d1y0kr" path="res://assets/tilemap/10.png" id="3_wcuic"]
+[ext_resource type="Texture2D" uid="uid://nhrw3uaqoks7" path="res://assets/tilemap/11.png" id="4_c4qr4"]
+[ext_resource type="Texture2D" uid="uid://b3i4oojjly20x" path="res://assets/tilemap/12.png" id="5_skaee"]
+[ext_resource type="Texture2D" uid="uid://besy2k65qq6m0" path="res://assets/tilemap/13.png" id="6_beeqt"]
+[ext_resource type="Texture2D" uid="uid://dvdasf3epaaio" path="res://assets/tilemap/14.png" id="7_0cnvk"]
+[ext_resource type="Texture2D" uid="uid://s6ca4ods6idd" path="res://assets/tilemap/15.png" id="8_6xm8m"]
+[ext_resource type="Texture2D" uid="uid://duibic2g3myr0" path="res://assets/tilemap/16.png" id="9_mpmcs"]
+[ext_resource type="Texture2D" uid="uid://ukhd3j4m3dvb" path="res://assets/tilemap/17.png" id="10_mksr5"]
+[ext_resource type="Texture2D" uid="uid://c4cmahdyceujq" path="res://assets/tilemap/18.png" id="11_2ut5j"]
+[ext_resource type="Texture2D" uid="uid://d2hai26djhke" path="res://assets/tilemap/2.png" id="12_lhn7a"]
+[ext_resource type="Texture2D" uid="uid://xbwwmljy7ybt" path="res://assets/tilemap/3.png" id="13_5m0vm"]
+[ext_resource type="Texture2D" uid="uid://bo3meidg8h48s" path="res://assets/tilemap/4.png" id="14_y4qw5"]
+[ext_resource type="Texture2D" uid="uid://bfxocow72ihod" path="res://assets/tilemap/5.png" id="15_ak2bo"]
+[ext_resource type="Texture2D" uid="uid://67otum7qhe4h" path="res://assets/tilemap/6.png" id="16_40mmr"]
+[ext_resource type="Texture2D" uid="uid://hdpn6tgynot6" path="res://assets/tilemap/7.png" id="17_rui5k"]
+[ext_resource type="Texture2D" uid="uid://bryg0tkoamrl7" path="res://assets/tilemap/8.png" id="18_gkjw3"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_btygk"]
+texture = ExtResource("1_v32y7")
+texture_region_size = Vector2i(128, 128)
+0:0/next_alternative_id = 2
+0:0/0 = 0
+0:0/1 = 1
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_iufs6"]
+texture = ExtResource("2_xheb8")
+texture_region_size = Vector2i(128, 128)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_m81jm"]
+texture = ExtResource("3_wcuic")
+texture_region_size = Vector2i(128, 128)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_bsj85"]
+texture = ExtResource("4_c4qr4")
+texture_region_size = Vector2i(128, 128)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0nbcm"]
+texture = ExtResource("5_skaee")
+texture_region_size = Vector2i(128, 128)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_pg11d"]
+texture = ExtResource("6_beeqt")
+texture_region_size = Vector2i(128, 128)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_upgox"]
+texture = ExtResource("7_0cnvk")
+texture_region_size = Vector2i(128, 93)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_s1v8n"]
+texture = ExtResource("8_6xm8m")
+texture_region_size = Vector2i(128, 93)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lhfai"]
+texture = ExtResource("9_mpmcs")
+texture_region_size = Vector2i(128, 93)
+0:0/0 = 0
+0:0/0/texture_origin = Vector2i(0, 18)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_iaigl"]
+texture = ExtResource("10_mksr5")
+texture_region_size = Vector2i(128, 93)
+0:0/0 = 0
+0:0/0/texture_origin = Vector2i(0, -18)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0cm2c"]
+texture = ExtResource("11_2ut5j")
+texture_region_size = Vector2i(128, 128)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_siao2"]
+texture = ExtResource("12_lhn7a")
+texture_region_size = Vector2i(128, 128)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_w57va"]
+texture = ExtResource("13_5m0vm")
+texture_region_size = Vector2i(128, 128)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_og56x"]
+texture = ExtResource("14_y4qw5")
+texture_region_size = Vector2i(128, 128)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_xefag"]
+texture = ExtResource("15_ak2bo")
+texture_region_size = Vector2i(128, 128)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_f5pge"]
+texture = ExtResource("16_40mmr")
+texture_region_size = Vector2i(128, 128)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_5knpl"]
+texture = ExtResource("17_rui5k")
+texture_region_size = Vector2i(128, 128)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_wclyu"]
+texture = ExtResource("18_gkjw3")
+texture_region_size = Vector2i(128, 128)
+0:0/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_o5x8c"]
+tile_size = Vector2i(128, 128)
+sources/1 = SubResource("TileSetAtlasSource_btygk")
+sources/2 = SubResource("TileSetAtlasSource_siao2")
+sources/4 = SubResource("TileSetAtlasSource_w57va")
+sources/5 = SubResource("TileSetAtlasSource_og56x")
+sources/6 = SubResource("TileSetAtlasSource_xefag")
+sources/7 = SubResource("TileSetAtlasSource_f5pge")
+sources/8 = SubResource("TileSetAtlasSource_5knpl")
+sources/9 = SubResource("TileSetAtlasSource_wclyu")
+sources/10 = SubResource("TileSetAtlasSource_iufs6")
+sources/11 = SubResource("TileSetAtlasSource_m81jm")
+sources/12 = SubResource("TileSetAtlasSource_bsj85")
+sources/13 = SubResource("TileSetAtlasSource_0nbcm")
+sources/14 = SubResource("TileSetAtlasSource_pg11d")
+sources/15 = SubResource("TileSetAtlasSource_upgox")
+sources/16 = SubResource("TileSetAtlasSource_s1v8n")
+sources/17 = SubResource("TileSetAtlasSource_lhfai")
+sources/18 = SubResource("TileSetAtlasSource_iaigl")
+sources/19 = SubResource("TileSetAtlasSource_0cm2c")
 
 [node name="Node2D" type="Node2D"]
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = SubResource("TileSet_o5x8c")
+format = 2
+layer_0/tile_data = PackedInt32Array(196610, 1, 65536, 196611, 2, 0, 196612, 2, 0, 196613, 2, 0, 196614, 2, 0, 196615, 2, 0, 196616, 2, 0, 196618, 2, 0, 196617, 2, 0, 196619, 2, 0, 196620, 2, 0, 196621, 2, 0, 196622, 2, 0, 196623, 2, 0, 196624, 2, 0, 196625, 2, 0, 196626, 17, 0, 262146, 5, 0, 262147, 6, 0, 262148, 6, 0, 262149, 6, 0, 262150, 6, 0, 262151, 6, 0, 262152, 6, 0, 262153, 6, 0, 262154, 6, 0, 262155, 6, 0, 262156, 6, 0, 262157, 6, 0, 262158, 6, 0, 262159, 6, 0, 262160, 6, 0, 262161, 6, 0, 327697, 6, 0, 327696, 6, 0, 327695, 6, 0, 327694, 6, 0, 327693, 6, 0, 327692, 6, 0, 327691, 6, 0, 327690, 6, 0, 327689, 6, 0, 327688, 6, 0, 327687, 6, 0, 327686, 6, 0, 327685, 6, 0, 327684, 6, 0, 327683, 6, 0, 327682, 5, 0, 393218, 5, 0, 458754, 5, 0, 393219, 6, 0, 393220, 6, 0, 393221, 6, 0, 393222, 6, 0, 393223, 6, 0, 393224, 6, 0, 393225, 6, 0, 393226, 6, 0, 393227, 6, 0, 393228, 6, 0, 393229, 6, 0, 393230, 6, 0, 393231, 6, 0, 393232, 6, 0, 458768, 6, 0, 458769, 6, 0, 458767, 6, 0, 393233, 6, 0, 458766, 6, 0, 458765, 6, 0, 458764, 6, 0, 458763, 6, 0, 458762, 6, 0, 458761, 6, 0, 458760, 6, 0, 458759, 6, 0, 458758, 6, 0, 458757, 6, 0, 458756, 6, 0, 458755, 6, 0, 327698, 19, 0, 327699, 19, 0, 327700, 19, 0, 327701, 19, 0, 327702, 19, 0, 327703, 19, 0, 327704, 19, 0, 327705, 19, 0, 327706, 19, 0, 327707, 19, 0, 327708, 19, 0, 393244, 19, 0, 393243, 19, 0, 458779, 19, 0, 458778, 19, 0, 458777, 19, 0, 458776, 19, 0, 458775, 19, 0, 458774, 19, 0, 458773, 19, 0, 458772, 19, 0, 393235, 19, 0, 393234, 19, 0, 458770, 19, 0, 458771, 19, 0, 393236, 19, 0, 393237, 19, 0, 393238, 19, 0, 393239, 19, 0, 393240, 19, 0, 393241, 19, 0, 393242, 19, 0, 458780, 19, 0, 262162, 18, 0, 262163, 18, 0, 262164, 18, 0, 262165, 18, 0, 262166, 18, 0, 262167, 18, 0, 262168, 18, 0, 262169, 18, 0, 262170, 18, 0, 262171, 18, 0, 262172, 18, 0)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CharacterBody2D" parent="StaticBody2D" instance=ExtResource("2_hpp8j")]
+position = Vector2(329, -77)
+scale = Vector2(0.2, 0.2)
+
+[node name="Camera2D" type="Camera2D" parent="StaticBody2D/CharacterBody2D"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
+position = Vector2(233, 333)
+scale = Vector2(5.48495, 13.6222)
+polygon = PackedVector2Array(399.457, 3.96413, 397.634, 50.1389, 6.56342, 50.1389, 5.28719, 4.11095)
